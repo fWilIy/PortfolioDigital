@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>Fotógrafo Lucas</title>
+<link rel="icon" href="../img/camera.png">
+<link href="../css/estilo_responsive.css" rel="stylesheet" type="text/css">
+<script src="../jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="../jQueryAssets/jquery-ui-effects.custom.min.js"></script>
+<script type="text/javascript">
+function MM_DW_effectBlind(obj,method,effect,dir,speed)
+{
+    obj[method](effect, { direction: dir}, speed);
+}
+</script>
+</head>
+
+<body>
+<div id="container">
+  <div id="botaoresponsivel" onClick="MM_DW_effectBlind($('#menu'),'toggle','blind','up',500)">&#9776;</div>
+    
+  <header id="cabecalho">
+    <div id="logotipo">Contato</div>
+    <div id="menu">
+      <nav>
+        <ul>
+          <li><a href="../index.html">Página Inicial</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="parceiros.html">Parceiros</a></li>
+            <li><a href="contatos.html">Contato</a></li>
+            <li><a href="sobre_nós.html">Sobre nós</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+<div class="limpar"></div>
+<main id="conteudo">
+    <section>
+        <article>Quer entrar em contato conosco? <br>Deixe aqui seu nome, email e uma mensagem, que iremos retornar o mais breve possivel.</article>
+        <div id="contato">
+        <form id="contact_form" action="include.php" method="post">
+    <fieldset>
+        <legend>Informações</legend>
+        <p>
+    <label for="nome">Nome</label>
+        <input name="nome" type="text" title="Digite aqui seu nome">
+               </p>
+        <p><label for="email">Email:</label>
+            <input name="email" type="email" title="Digite aqui seu email">
+        </p>
+        </fieldset>
+    <fieldset>
+        <legend>Mensagem</legend>
+             <p>
+            <label for="textarea">Deixe aqui sua mensagem:</label>
+            <textarea cols="50" rows="5"></textarea>
+        </p>
+    </fieldset>
+    <input type="submit" name="submit" value="Enviar" style="width:100px;margin-top:10px;margin-left:20px">
+    
+    </form>
+    </div>
+    </section>
+  </main>
+<footer id="rodape" class="limpar">Empreendimentos &copy;2021</footer>
+    
+</div>
+</body>
+</html>
+-

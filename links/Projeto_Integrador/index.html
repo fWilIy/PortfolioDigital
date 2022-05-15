@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bon Voyage | Página Inicial</title>
+    <link rel="stylesheet" href="css/estilo.css" />
+    <link rel="icon" href="imagens/aviao.png" />
+    <script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+    <script src="jQueryAssets/jquery-ui-effects.custom.min.js"></script>
+    <script type="text/javascript">
+      function MM_DW_effectBlind(obj, method, effect, dir, speed) {
+        obj[method](effect, { direction: dir }, speed);
+      }
+    </script>
+    <script type="text/javascript">
+      alert("Esse projeto foi desenvolvido como forma de concluir o curso.\nQueriamos contemplar todas as linguagens que vimos ao longo das UCs de desenvolvimento.\nAproveite! ;D")
+    </script>
+  </head>
+
+  <body>
+    <!-- Container do corpo -->
+    <div id="container">
+      <!-- Div Botão Responsível -->
+      <div
+        id="botaoresponsivel"
+        onClick="MM_DW_effectBlind($('#menu'),'toggle','blind','up',500)"
+      >
+        &#9776;
+      </div>
+      <!-- Menu - Cabeçalho -->
+      <header id="cabecalho">
+        <div id="logotipo">
+          <a href=""
+            ><img
+              src="imagens/logoBonVooyage.png"
+              alt="LogoBonVooyage"
+              width="100px"
+              height="100px"
+              title="LogoBonVooyage"
+          /></a>
+        </div>
+        <div id="menu">
+          <nav>
+            <ul>
+              <li><a href="index.html">Página Inicial</a></li>
+              <li><a href="links/contato.html">Contato</a></li>
+              <li><a href="links/quem_somos.html">Quem somos</a></li>
+              <li><a href="links/parceiros.html">Parceiros</a></li>
+              <li>
+                <a href="links/cadastro.html">
+                  <button type="submit">Cadastrar</button>
+                </a>
+              </li>
+              <li>
+                <a href="links/login.html">
+                  <button type="submit">Login</button>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <div class="limpar"></div>
+      <!-- Começo da página principal -->
+      <main>
+        <div id="corpo">
+          <div id="sobreFundo">
+            <div id="voo">Voo</div>
+            <div id="locom">Locomoção</div>
+            <p class="viagemMundo">Viaje o mundo com a gente!</p>
+            <form id="viagem">
+              <div id="partida">
+                <label> Partida:</label>
+                <select name="partida">
+                  <option>Aracaju</option>
+                  <option>Belém</option>
+                  <option>Belo Horizonte</option>
+                  <option>Boa Vista</option>
+                  <option>Brasília</option>
+                  <option>Campo Grande</option>
+                  <option>Cuiabá</option>
+                  <option>Curitiba</option>
+                  <option>Florianópolis</option>
+                  <option>Fortaleza</option>
+                  <option>Goiânia</option>
+                  <option>João Pessoa</option>
+                  <option>Macapá</option>
+                  <option>Maceió</option>
+                  <option>Manaus</option>
+                  <option>Natal</option>
+                  <option>Palmas</option>
+                  <option>Porto Alegre</option>
+                  <option>Porto Velho</option>
+                  <option>Recife</option>
+                  <option>Rio Branco</option>
+                  <option>Rio de Janeiro</option>
+                  <option>Salvador</option>
+                  <option>São Luís</option>
+                  <option>São Paulo</option>
+                  <option>Teresina</option>
+                  <option>Vitória</option>
+                </select>
+              </div>
+
+              <div id="destino">
+                <label> Destino: </label>
+                <select onchange="location.href=this.value" name="destino">
+                  <option
+                    value="https://all.accor.com/ssr/app/ibis/hotels/aracaju-state-of-sergipe-brazil/index.pt-br.shtml?dateIn=2022-05-11&nights=1&compositions=1&stayplus=false&snu=false"
+                  >
+                    Aracaju
+                  </option>
+                  <option
+                    value="https://all.accor.com/ssr/app/ibis/hotels/belem-state-of-para-brazil/index.pt-br.shtml?dateIn=2022-05-11&nights=1&compositions=1&stayplus=false&snu=false"
+                  >
+                    Belém
+                  </option>
+                  <option
+                    value="https://all.accor.com/ssr/app/ibis/hotels/belo-horizonte-state-of-minas-gerais-brazil/index.pt-br.shtml?dateIn=2022-05-11&nights=1&compositions=1&stayplus=false&snu=false"
+                  >
+                    Belo Horizonte
+                  </option>
+                  <option
+                    value="https://all.accor.com/ssr/app/ibis/hotels/boa-vista-state-of-roraima-brazil/index.pt-br.shtml?dateIn=2022-05-11&nights=1&compositions=1&stayplus=false&snu=false"
+                  >
+                    Boa Vista
+                  </option>
+                  <option
+                    value="https://all.accor.com/ssr/app/ibis/hotels/brasilia-brasilia-federal-district-brazil/index.pt-br.shtml?dateIn=2022-05-11&nights=1&compositions=1&stayplus=false&snu=false"
+                  >
+                    Brasília
+                  </option>
+                  <option
+                    value="https://all.accor.com/ssr/app/ibis/hotels/campo-grande-state-of-mato-grosso-do-sul-brazil/index.pt-br.shtml?dateIn=2022-05-11&nights=1&compositions=1&stayplus=false&snu=false"
+                  >
+                    Campo Grande
+                  </option>
+                  <option
+                    value="https://all.accor.com/ssr/app/ibis/hotels/cuiaba-river-cuiaba-river-state-of-mato-grosso-brazil/index.pt-br.shtml?dateIn=2022-05-11&nights=1&compositions=1&stayplus=false&snu=false"
+                  >
+                    Cuiabá
+                  </option>
+                  <option
+                    value="https://all.accor.com/ssr/app/ibis/hotels/curitiba-state-of-parana-brazil/index.pt-br.shtml?dateIn=2022-05-11&nights=1&compositions=1&stayplus=false&snu=false"
+                  >
+                    Curitiba
+                  </option>
+                  <option
+                    value="https://all.accor.com/ssr/app/ibis/hotels/florianopolis-state-of-santa-catarina-brazil/index.pt-br.shtml?dateIn=2022-05-11&nights=1&compositions=1&stayplus=false&snu=false"
+                  >
+                    Florianópolis
+                  </option>
+                  <option
+                    value="https://all.accor.com/ssr/app/ibis/hotels/fortaleza-state-of-ceara-brazil/index.pt-br.shtml?dateIn=2022-05-11&nights=1&compositions=1&stayplus=false&snu=false"
+                  >
+                    Fortaleza
+                  </option>
+                  <option
+                    value="https://all.accor.com/ssr/app/ibis/hotels/goiania-state-of-goias-brazil/index.pt-br.shtml?dateIn=2022-05-11&nights=1&compositions=1&stayplus=false&snu=false"
+                  >
+                    Goiânia
+                  </option>
+                  <option
+                    value="https://all.accor.com/ssr/app/ibis/hotels/joao-pessoa-state-of-paraiba-brazil/index.pt-br.shtml?dateIn=2022-05-11&nights=1&compositions=1&stayplus=false&snu=false"
+                  >
+                    João Pessoa
+                  </option>
+                  <option
+                    value="https://all.accor.com/ssr/app/ibis/hotels/macaparana-state-of-pernambuco-55865-000-brazil/index.pt-br.shtml?dateIn=2022-05-11&nights=1&compositions=1&stayplus=false&snu=false"
+                  >
+                    Macapá
+                  </option>
+                  <option
+                    value="https://all.accor.com/ssr/app/ibis/hotels/maceio-state-of-alagoas-brazil/index.pt-br.shtml?dateIn=2022-05-11&nights=1&compositions=1&stayplus=false&snu=false"
+                  >
+                    Maceió
+                  </option>
+                  <option
+                    value="https://all.accor.com/ssr/app/ibis/hotels/manaus-state-of-amazonas-brazil/index.pt-br.shtml?dateIn=2022-05-11&nights=1&compositions=1&stayplus=false&snu=false"
+                  >
+                    Manaus
+                  </option>
+                  <option
+                    value="https://all.accor.com/ssr/app/ibis/hotels/natal-state-of-rio-grande-do-norte-brazil/index.pt-br.shtml?dateIn=2022-05-11&nights=1&compositions=1&stayplus=false&snu=false"
+                  >
+                    Natal
+                  </option>
+                  <option
+                    value="https://all.accor.com/ssr/app/ibis/hotels/palmas-state-of-tocantins-brazil/index.pt-br.shtml?dateIn=2022-05-11&nights=1&compositions=1&stayplus=false&snu=false"
+                  >
+                    Palmas
+                  </option>
+                  <option
+                    value="https://all.accor.com/ssr/app/ibis/hotels/porto-alegre-rs-brazil/index.pt-br.shtml?dateIn=2022-05-11&nights=1&compositions=1&stayplus=false&snu=false"
+                  >
+                    Porto Alegre
+                  </option>
+                  <option
+                    value="https://all.accor.com/ssr/app/ibis/hotels/porto-velho-state-of-rondonia-brazil/index.pt-br.shtml?dateIn=2022-05-11&nights=1&compositions=1&stayplus=false&snu=false"
+                  >
+                    Porto Velho
+                  </option>
+                  <option
+                    value="https://all.accor.com/ssr/app/ibis/hotels/recife-state-of-pernambuco-brazil/index.pt-br.shtml?dateIn=2022-05-11&nights=1&compositions=1&stayplus=false&snu=false"
+                  >
+                    Recife
+                  </option>
+                  <option
+                    value="https://all.accor.com/ssr/app/ibis/hotels/rio-branco-state-of-acre-brazil/index.pt-br.shtml?token=TteHE-HlYQ_-tWi8CKokY_er1pYBLkqYftt2Bk0jOiHTULCOP9lYmtOjjy3Rx1yer4jZWL7ggLUUqK40Smd5naGroeAp884dcn6jlh4DhmP9f0JbLufV1SKvo4lWYFuR3xsZ2-OYa4JHg10DhTy4vXkCNrwPYkIAQR4TGd-aLhAtO5Hf_y-UD3BVD6rbkqKYIBODBt-QWedsoA2Wr6JlfHOU-7d-wmdsfnxHImZAqMQGQDS774Vjd8WzAG5OGsURbhMbR9rHnMYiM9QncMc_77o6-Tz1jBiF1GImQHaJbgdtjxb7PkaD4WrSq51D4ggT9MGW_EZU8xmpSvDbDzcMOqbbZAbl3MJ3D3tXw4dN4hdF2w97mWivBQgOtPAKjDb_RJO0-Vl1kVWSPD30oUZKsZWJ1bd2owfyotfCnvuxz0kw2SbSJLV0Iuy_48-q-OidanXh6F99AbJzV6QQLnbI-Cj5PNKaQ2XsjIMg_3iSUu7g-UvNtzQNaOl1QSK_HKVKVYb5BLqmWE_r01Pdn3q0dML4fopHoKany_0jQ-nhCZqs1KaQVYJcx2HisluLnXFPJW_9JoyFiS9eaRIUjvg13hHvq5csaq8ZB-Y8ZLy-tQBFS5c21VhhlnIxifHOG_LokxW2h8YotFlySx3avxIdWWfle7jtzoyB0oeG8MtxyKnoL0ULZo1rq7qPx5iUA3rOIg_gfMMnfWXX__ZoEr-bC7m8Zs4y1V_9ZQyI2mF6M2K-PuLeeGpaGDa7VfsOPUhLwV6_NqTVARbxxkQVYd7EaWCEUCTJzeNB8lG_jUn5a5CqqrWPdJOe9JYcwgNePKVO76ZC1A9KZeWQUxuji1AUhEiZNoq8n4BtqRiVIV8Cxt772tIskiCo2b49Cc24QguGJMc3KvIhidwlE5xzdDIYkUS5zcAf1eTci_8SSRVCeLSrHA3AoT9DhWH6ypO5oXiFGnanH0REN82Azre9vAvNJ54JzIANZUcqU3Fq5_sAPpyeuUeFDA-T2mGq4aDcqIfcBksY_JSYN5CSWsobS-NnuBE8jn1t4pUR9BzMREK0PYsWKjnjyGUQzOIj9C6gTLBjADfbf1FeO7hMU6cB1SFHmyYcNgmc5CkdQX_Z79fhEtEx1VYQLzrle4qIXwDyFgn4PSVxERhmvzprzXHMafV1VLu-TMHLH_ptY1wQAQygQiocWE0_YkrvwgIIK0fr82fO67QPzg&dateIn=2022-05-11&nights=1&compositions=1&stayplus=false&snu=false"
+                  >
+                    Rio Branco
+                  </option>
+                  <option
+                    value="https://all.accor.com/ssr/app/ibis/hotels/rio-de-janeiro-state-of-rio-de-janeiro-brazil/index.pt-br.shtml?dateIn=2022-05-11&nights=1&compositions=1&stayplus=false&snu=false"
+                  >
+                    Rio de Janeiro
+                  </option>
+                  <option
+                    value="https://all.accor.com/ssr/app/ibis/hotels/salvador-state-of-bahia-brazil/index.pt-br.shtml?dateIn=2022-05-11&nights=1&compositions=1&stayplus=false&snu=false"
+                  >
+                    Salvador
+                  </option>
+                  <option
+                    value="https://all.accor.com/ssr/app/ibis/hotels/sao-luis-vila-maranhao-sao-luis-state-of-maranhao-brazil/index.pt-br.shtml?dateIn=2022-05-11&nights=1&compositions=1&stayplus=false&snu=false"
+                  >
+                    São Luís
+                  </option>
+                  <option
+                    value="https://all.accor.com/ssr/app/ibis/hotels/sao-paulo-state-of-sao-paulo-brazil/index.pt-br.shtml?dateIn=2022-05-11&nights=1&compositions=1&stayplus=false&snu=false"
+                  >
+                    São Paulo
+                  </option>
+                  <option
+                    value="https://all.accor.com/ssr/app/ibis/hotels/teresina-state-of-piaui-brazil/index.pt-br.shtml?dateIn=2022-05-11&nights=1&compositions=1&stayplus=false&snu=false"
+                  >
+                    Teresina
+                  </option>
+                  <option
+                    value="https://all.accor.com/ssr/app/ibis/hotels/vitoria-vitoria-state-of-espirito-santo-brazil/index.pt-br.shtml?token=U8a7WhFE8tgmxdK0f32abMio1pado-JBuBe-Sm24f4rhX7glCSXOUHOrZuqgbCvXVc3LcNdrVsCtByUsbprztip7Ns8zRl7zpCEtkV8KGTwudqNBGwKHsUjzVhT7T86ZG3h-iBYAHFVJu8ayoDAnhnvlew4CgeiY9wgE1Npr2ZzT8FV3F17ILrMnYK_rTyZ9XvW0_RXbK5eHajXsmp4yRgFsHrwqWmSZvpwXHW1X-Uxofc20RmXtbndq95a8HiVtBOLyE-UjfRGEHx1HV0tPqJP-KZol3qmGAffsotPC3uasM89O6QNZPIX-P3MfkL7jv0nE_q1TmVfbueeQmeq4MKmBrzI43vF9yoYLb588NUpLQCKD4rhZ4Alb1IUixaRbb7lOARjg6BIPuCs7OA2vYtE1O4BMfQqYwH1fYYJbIalDfF6VHiG6-32lTngiLg_SQEG67PxikxgNRU8TRHh_gs6K-xk3hdfbytXxvVj6zJpWySMjescRUNOhhBSU8orAeOeQDoSSDL9mvdiO-tFbzX-MVSCULuOglR1R9g8eWXx2vzaCGYlpDj63mKBaq8bBEvIxsW8f9csEkUU5fGsxymJHB12y-1vuOfFKQFS8CwBD9U_YrOgTYLs8qUODkxmvxULEcbui3xVx590b5NQ1SfzFZmnUJwZFYWCdmmvepZW9xx0rEfRSXkZvtddV3tV-Ed5YzKqbjKVPYVdLDMHYEUKF8hmsLnHMH9x8eIgP3ps4T1aIX-TXvCzqWLB2Q84URsNm2zQ7cXdL9OitgZ9U-ugcciW479UDeZaCh_jKFnLIjpO521D71v_vTmQPIJMEozzubj0z-F6cWeKgcJ46ibHu8EL9zRMO4K84PHnEPLzo4W0nBm8ib4CydBx1JRbHcd3o2sn6sH4gRH5D4p0SDBj20LC-3BF8dDfwjXQXCdyxdbRlkosTBynWDKd80bVP1qFnvB9_0x6VrzoG05Ez-H590hW30U5x3gvy4cYAOBs5krDUpMi0tVIlLUMtisZJPYNasb6oQc8lutnBBY7B_U3LQu75UBMu_Ms6-cHLRKbSIxg5NuQCdLRB7pTOXGUIPCHHn4VBFLndNxi_yrF4wl6g9qIl26lGpSCv4s90_kRVA5Pp2EXabrdkRfqFRZpqjxP6anW2ULhnyKsxwEiYV0HFVNEyFhaXwKECUNc7AMPWXhZ7zVtfcNOSgi0BHGyNfqSlOQ&dateIn=2022-05-11&nights=1&compositions=1&stayplus=false&snu=false"
+                  >
+                    Vitória
+                  </option>
+                </select>
+              </div>
+            </form>
+          </div>
+        </div>
+      </main>
+
+      <!-- Rodapé da página -->
+      <footer id="rodape" class="limpar">
+        Bon Voyage | Página Inicial &copy;2022
+      </footer>
+    </div>
+  </body>
+</html>

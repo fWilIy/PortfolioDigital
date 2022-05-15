@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bon Voyage | Quem Somos</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="icon" href="../imagens/soms.png">
+    <script src="../jQueryAssets/jquery-1.11.1.min.js"></script>
+    <script src="../jQueryAssets/jquery-ui-effects.custom.min.js"></script>
+    <script type="text/javascript">
+      function MM_DW_effectBlind(obj, method, effect, dir, speed) {
+        obj[method](effect, { direction: dir }, speed);
+      }
+    </script>
+  </head>
+
+  <body>
+    <!-- Container do Corpo -->
+    <div id="container">
+      <!-- Div Botão Responsível -->
+      <div
+        id="botaoresponsivel"
+        onClick="MM_DW_effectBlind($('#menu'),'toggle','blind','up',1000)"
+      >
+        &#9776;
+      </div>
+      <!-- Menu - Cabeçalho -->
+      <header id="cabecalho">
+        <div id="logotipo">
+          <a href=""
+            ><img
+              src="../imagens/logoBonVooyage.png"
+              alt="LogoBonVooyage"
+              width="80"
+              height="81"
+              title="LogoBonVooyage"
+         ></a>
+        </div>
+        <div id="menu">
+          <nav>
+            <ul>
+              <li><a href="../index.html">Página Inicial</a></li>
+              <li><a href="contato.html">Contato</a></li>
+              <li><a href="quem_somos.html">Quem somos</a></li>
+              <li><a href="parceiros.html">Parceiros</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <!-- Começo da página principal -->
+      <main>
+        <div id="transparencia">
+          <hr>
+          <img src="../imagens/turismo.webp" class="imgTamanho">
+          <hr>
+          <h1>Sobre</h1>
+          <p>
+            Agência de viagens que deseja modenizar e transformar a forma que
+            presta serviços e vendas.
+          </p>
+          <hr>
+          <img src="../imagens/rio.jpg" class="imgTamanho">
+          <hr>
+          <h1>Visão</h1>
+          <p>
+            Ser a empresa que melhor atende e satisfaz as necessidades do
+            viajante, agregando valor na prestação de serviços.<br>Ética,
+            confiabilidade, transparência, eficiência, fidelidade e realização
+            profissional.
+          </p>
+          <hr>
+          <h1>Missão</h1>
+          <p>
+            Nossa missão de ser é a prestação de serviços com a mais completa
+            assistência ao viajante em abrangência Nacional.
+          </p>
+          <hr>
+          <h1>Valores</h1>
+          <p>
+            Ética, confiabilidade, transparência, eficiência, fidelidade e
+            realização profissional.
+          </p>
+          <hr>
+        </div>
+      </main>
+
+      <!-- Rodapé da página -->
+      <footer id="rodape" class="limpar">Quem Somos &copy;2022</footer>
+    </div>
+  </body>
+</html>

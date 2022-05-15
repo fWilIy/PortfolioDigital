@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bon Voyage | Contato</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="icon" href="../imagens/tele.png">
+    <style>
+      body {
+        background-image: url("../imagens/mountains.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    </style>
+    <script src="../jQueryAssets/jquery-1.11.1.min.js"></script>
+    <script src="../jQueryAssets/jquery-ui-effects.custom.min.js"></script>
+    <script type="text/javascript">
+      function MM_DW_effectBlind(obj, method, effect, dir, speed) {
+        obj[method](effect, { direction: dir }, speed);
+      }
+    </script>
+  </head>
+
+  <body>
+    <!-- Container do Corpo -->
+    <div id="container">
+      <!-- Div Botão Responsível -->
+      <div
+        id="botaoresponsivel"
+        onClick="MM_DW_effectBlind($('#menu'),'toggle','blind','up',1000)"
+      >
+        &#9776;
+      </div>
+      <!-- Menu - Cabeçalho -->
+      <header id="cabecalho">
+        <div id="logotipo">
+          <a href=""
+            ><img
+              src="../imagens/logoBonVooyage.png"
+              alt="LogoBonVooyage"
+              width="80"
+              height="81"
+              title="LogoBonVooyage"
+         ></a>
+        </div>
+        <div id="menu">
+          <nav>
+            <ul>
+              <li><a href="../index.html">Página Inicial</a></li>
+              <li><a href="contato.html">Contato</a></li>
+              <li><a href="quem_somos.html">Quem somos</a></li>
+              <li><a href="parceiros.html">Parceiros</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <div class="limpar"></div>
+      <!-- Começo da página principal -->
+      <main>
+        <div id="form">
+          <form action="" method="post">
+            <h1>Contato</h1>
+            <label for="nome">Nome:<br></label>
+            <input type="text" class="input" id="nome"><br>
+            <label for="email">E-mail:<br></label>
+            <input type="email" class="input" id="email"><br>
+            <label for="msg" id="msg">Mensagem:<br></label>
+            <input type="textarea" class="input" id="textarea"><br>
+            <p>
+              Defina seu nível de satisfação:<br>
+              Pouco satisfeito
+              <input type="range" name="satisfacao" min="0" max="10">
+              Muito satisfeito
+            </p>
+            <input type="submit" id="enviar" value="Enviar">
+          </form>
+        </div>
+      </main>
+
+      <!-- Rodapé da página -->
+      <footer id="rodape" class="limpar">Contato &copy;2022</footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="icon" href="../imagens/icon1.png">
+    <style>
+      #cabecalho {
+        background: none;
+      }
+      #rodape {
+        background-color: rgba(255, 255, 255, 0.196);
+      }
+      body {
+        background-image: url("../imagens/foz.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Container do Corpo -->
+    <div id="container">
+      <!-- Cabeçalho -->
+      <header id="cabecalho">
+        <a href="../index.html"><button id="pgIni">Página Inicial</button></a>
+      </header>
+      <!-- Começo da página principal -->
+      <main>
+        <div id="form">
+          <form method="post" action="include.php">
+            <br><br>
+            <h1>Cadastro</h1>
+            <br>
+            <label>Nome</label>
+            <input type="text" name="nome" class="input" id="cadNome" required><br>
+
+            <label>Email:</label><br>
+            <input type="email" name="email" class="input" id="CadEmail" required><br>
+
+            <label>CPF/CNPJ:</label><br>
+            <input type="text" name="cpf" class="input" id="CadCpfCnpj" required><br>
+
+            <label>Senha:</label><br>
+            <input type="password" name="senha" class="input" id="CadSenha" required><br>
+
+            <button type="submit" name="cadastrar" id="CadEnviar">Enviar</button>
+          </form>
+        </div>
+      </main>
+
+      <!-- Rodapé da página -->
+      <footer id="rodape">Esqueleto &copy;2022</footer>
+    </div>
+  </body>
+  </html>
+
+
+
+
+

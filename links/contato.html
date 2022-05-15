@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Portifólio</title>
+    <link rel="stylesheet" href="../css/estilo.css" >
+    <link rel="icon" href="../imagens/iconPortif.png">
+    <style></style>
+  </head>
+
+  <body>
+    <!-- Container do Corpo -->
+    <div id="container">
+      <!-- Cabeçalho -->
+      <header id="cabecalho">
+        <!-- Menu - Cabeçalho -->
+        <nav id="menu">
+          <ul>
+            <a href="../index.html"><li>Portifólio Digital</li></a>
+            <a href="contato.html"><li>Contato</li></a>
+            <a href="sobre_mim.html"><li>Sobre mim</li></a>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Começo da página principal -->
+      <main id="corpo">
+          <div id="formulario">
+          <form id="form" method="post" action="email.php">
+              <p>Se quiser me enviar um feedback, deixa sua mensagem aqui!</p><br>
+              <label>Nome</label><br>
+              <input type="text" name="nome" class="input" placeholder="Seu nome aqui." required><br>
+              <label>Email</label><br>
+              <input type="email" name="email" class="input" placeholder="Seu email aqui."required><br>
+              <label>Assunto</label><br>
+              <input type="text" name="assunto" class="input" placeholder="Qual o motivo do contato?" required maxlength="200"><br>
+              <label>Mensagem</label><br>
+              <textarea class="textarea" name="mensagem" placeholder="Sua mensagem aqui! :P"></textarea><br>
+              <input type="submit" class="btn">
+          </form>
+        </div>
+    </main>
+      <!-- Rodapé da página -->
+      <footer id="rodape">
+        <p>fWilly &copy;2022</p>
+        <a href="https://www.linkedin.com/in/gustavitor/" target="_blank">
+          <img src="../imagens/logolkd.png" class="icone"
+        ></a>
+        <a href="https://github.com/fWilIy" target="_blank">
+          <img src="../imagens/logogit.png" class="icone"
+        ></a>
+      </footer>
+    </div>
+  </body>
+</html>

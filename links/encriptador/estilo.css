@@ -1,0 +1,177 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: -apple-system, Arial;
+  color: #0a3871;
+}
+
+#container {
+  margin: auto;
+  width: 1360px;
+  background-color: #2595be2e;
+}
+#cabecalho {
+  background-color: rgba(255, 255, 255, 0.542);
+  color: #0a3871;
+  border-radius: 20px;
+  font-size: 2em;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+}
+#corpo {
+  height: 560px;
+}
+#rodape {
+  background-color: rgba(255, 255, 255, 0.542);
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 1.2em;
+  height: 52px;
+  line-height: 52px;
+}
+#codificador {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+#textarea {
+  padding: 10px;
+  margin-left: 150px;
+  font-size: 1.5em;
+  background-color: rgba(255, 255, 255, 0.318);
+  border: none;
+  resize: none;
+  border-radius: 20px;
+  text-align: justify;
+  color: #0a3871;
+  width: 605px;
+  height: 400px;
+}
+#texto {
+  position: relative;
+  float: right;
+  background-color: rgb(255, 255, 255);
+  margin-top: 50px;
+  margin-right: 50px;
+  padding: 10px;
+  width: 300px;
+  border-radius: 20px;
+  height: 400px;
+  text-align: justify;
+}
+#showTexto {
+  width: 260px;
+  height: 360px;
+  border: none;
+  border-radius: 15px;
+  padding: 20px;
+  resize: none;
+}
+#cripto {
+  width: 300px;
+  height: 45px;
+  border: solid 1px #0a3871;
+  border-radius: 15px;
+  background-color: #0a3871;
+  color: white;
+  margin-right: 20px;
+  margin-left: 150px;
+}
+#descripto {
+  width: 300px;
+  border-radius: 15px;
+  height: 45px;
+  border: solid 1px #0a3871;
+  background-color: #d8dfe8;
+  color: #0a3871;
+}
+#copiar {
+  width: 300px;
+  border-radius: 15px;
+  height: 45px;
+  border: solid 1px #0a3871;
+  background-color: #d8dfe8;
+  color: #0a3871;
+  margin-top: 15px;
+}
+.limpar {
+  clear: both;
+}
+/**********Midias responsívas**********/
+@media (min-width: 768px) and (max-width: 1024px) {
+  #container {
+    width: 100%;
+  }
+  #corpo {
+    height: 1100px;
+  }
+  #codificador {
+    width: 50%;
+    padding: 0;
+  }
+  #textarea {
+    width: 100%;
+    margin: 0;
+  }
+  #cripto,
+  #descripto {
+    width: 100%;
+    margin-left: 10px;
+  }
+  #textarea {
+    width: 100%;
+    margin: 0;
+  }
+  #texto {
+    width: 50%;
+    margin-right: 34%;
+    margin-top: 605px;
+  }
+  #showTexto {
+    width: 100%;
+    padding: 0;
+    height: 405px;
+  }
+  #copiar {
+    width: 100%;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  #container {
+    width: 100%;
+  }
+  #corpo {
+    height: 1100px;
+  }
+  #codificador {
+    width: 65%;
+  }
+  #textarea {
+    width: 100%;
+    margin: 0;
+  }
+  #cripto,
+  #descripto {
+    width: 100%;
+    margin-left: 10px;
+  }
+  #textarea {
+    width: 100%;
+    margin: 0;
+  }
+  #texto {
+    width: 65%;
+    margin-top: 605px;
+  }
+  #showTexto {
+    width: 100%;
+    padding: 0;
+    height: 405px;
+  }
+  #copiar {
+    width: 100%;
+  }
+}

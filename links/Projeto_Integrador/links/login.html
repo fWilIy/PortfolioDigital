@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="icon" href="../imagens/gogo.png">
+    <style>
+      #cabecalho {
+        background: none;
+      }
+      #rodape {
+        background-color: rgba(255, 255, 255, 0.196);
+      }
+      body {
+        background-image: url("../imagens/paulo.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Container do Corpo -->
+    <div id="container">
+      <!-- Cabeçalho -->
+      <header id="cabecalho">
+        <a href="../index.html"><button id="pgIni">Página Inicial</button></a>
+      </header>
+      <!-- Começo da página principal -->
+      <main>
+        <div id="form">
+          <form>
+            <h1>Login</h1>
+            <br><br><br><br>
+            <label>Email | CPF ou CNPJ:</label><br>
+            <input
+              type="text"
+              name="cpfCnpj"
+              class="input"
+              id="LogCpfCnpj"
+              minlength="11"
+              maxlength="14"
+              pattern="(\d{3}\.?\d{3}\.?\d{3}-?\d{2})|(\d{2}\.?\d{3}\.?\d{3}/?\d{4}-?\d{2})"
+           ><br>
+            <label>Senha:</label><br>
+            <input
+              type="password"
+              name="senha"
+              class="input"
+              id="LogSenha"
+           ><br><br><br><br>
+            <button type="submit" id="CadEnviar">Enviar</button>
+          </form>
+        </div>
+      </main>
+
+      <!-- Rodapé da página -->
+      <footer id="rodape">Login &copy;2022</footer>
+    </div>
+  </body>
+</html>
