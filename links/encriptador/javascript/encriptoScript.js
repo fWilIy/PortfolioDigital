@@ -6,7 +6,7 @@ let matrizCodigo = [
   ["i", "imes"],
   ["a", "ai"],
   ["o", "ober"],
-  ["u", "ufat"],
+  ["u", "ufat"]
 ];
 
 function encriptar(stringEncriptada) {
