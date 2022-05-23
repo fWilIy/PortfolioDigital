@@ -3,14 +3,14 @@
   padding: 0px;
   font-family: -apple-system, Arial;
 }
-
+/*********** Corpo ***********/
 #container {
   width: 1300px;
   margin: 0 auto;
-  background-color: red;
+  background-color: #BDC0b3;
 }
 #cabecalho {
-  background-color: rgba(255, 255, 255, 0.542);
+  background-color: rgba(255, 255, 255, 0.300);
   color: black;
   border-radius: 20px;
   font-size: 2em;
@@ -19,10 +19,10 @@
   line-height: 50px;
 }
 #corpo {
-  height: 500px;
+  height: 300px;
 }
 #rodape {
-  background-color: rgba(255, 255, 255, 0.542);
+  background-color: rgba(255, 255, 255, 0.300);
   border-radius: 20px;
   margin-left: auto;
   margin-right: auto;
@@ -30,4 +30,71 @@
   font-size: 1.2em;
   height: 52px;
   line-height: 52px;
+}
+/*********** index.html ***********/
+#botao{
+  margin-top: 200px;
+  margin-left:538px;
+  padding: 24px;
+  position: relative;
+}
+.btnJogar{
+  width:200px;
+  height: 50px;
+  background-color: darkblue;
+  color:white;
+  border:none;
+  border-radius: 12px;
+}
+.btnPalavra{
+  width:200px;
+  height: 50px;
+  background:none;
+  color:darkblue;
+  border: solid 0.8px darkblue;
+  border-radius: 12px;
+  margin-top: 8px;
+}
+/*********** palavras.html ***********/
+#palavra{
+  margin-left: 350px;
+  margin-top: 20px;
+}
+#textarea{
+  margin:0 auto;
+  width:600px;
+  height:300px;
+  border-radius: 15px;
+  background: none;
+  border:none;
+  resize:none;
+  font-size: 1.5em;
+  padding:10px;
+}
+#btnAdc{
+  border-radius: 15px;
+  border:none;
+  background-color: darkblue;
+  height:50px;
+  width:300px;
+  color:white;
+}
+#btnCanc{
+  border-radius: 15px;
+  border:solid 0.8px darkblue;
+  background:none;
+  height:50px;
+  width:300px;
+  color:darkblue;
+  margin-left: 15px;
+}
+/*********** jogo.html ***********/
+.teclado{
+  margin-left: 300px;
+  position: relative;
+  padding: 5px, 0;
+}
+.teclas{
+  font-size: 1.5em;
+  cursor: pointer;
 }
