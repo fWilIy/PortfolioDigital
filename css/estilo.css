@@ -39,7 +39,7 @@ ul li {
   text-align: center;
   line-height: 50px;
   font-size: 1em;
-  border-radius: 15px;;
+  border-radius: 15px;
   color: black;
   background-color: #d2ebf3c7;
 }
@@ -133,3 +133,51 @@ label, p{
   height: 50px;
 }
 
+@media (min-width: 0px) and (max-width: 480px){
+	#container{
+		width:100%;
+	}
+	#cabecalho{
+		width:100%;
+		height: 50%
+	}
+	#menu{
+		width:100%;
+		margin-left: 10%;
+	
+	}
+	ul li{
+		font-size:10px;
+		height:10%;
+		margin:0px;
+		padding:3%;
+		font-size:0.8em;
+		
+	}
+	.sites{
+		height:15%;
+		width:20%;
+		line-height: 7px;
+		font-size: 10px;
+		position:relative;
+		display: inline-block;
+	}
+	#siteUm{
+		margin:13px;
+	}
+	#siteDois{
+		margin:13px;
+	}
+	#siteTres{
+		margin:13px;
+	}
+	#siteQuatro{
+		margin:13px;
+	}
+	#siteCinco{
+		margin:13px;
+	}
+	p{
+	
+	}
+}
